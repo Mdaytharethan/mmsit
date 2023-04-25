@@ -1,9 +1,16 @@
-let x = 15 
+var x
+var y
+console.log(y);
 console.log(x);
-function main(){
-    if(document.getElementById.text_1!=String){
-        console.log("error");
-        window.alert("error"+100);
-        window.alert(Date());
+function myFunction(){
+    y = document.getElementById("text_2").value;
+    console.log(y);
+    x = document.getElementById("text_1").value;
+    console.log(x);
+    if(x!=y){
+        document.write("error error");
+    }
+    else{
+        document.write("good job");
     }
 }
